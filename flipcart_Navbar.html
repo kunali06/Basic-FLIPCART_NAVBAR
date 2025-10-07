@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial,sans-serif;
+    }
+    .navbar{
+    
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #2874f0;
+      padding: 10px 20px;
+      color: white;
+    }
+    .logo img{
+      width: 120px;
+      cursor: pointer;
+    }
+    .search-box{
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 5px;
+      padding: 5px;
+      width: 40px;
+    }
+    .search-box input{
+      border: none;
+      outline: none;
+      padding: 8px;
+      height: 50px;
+      width: 200px;
+      font-size: 16px;
+      
+    }
+    .search-box button{
+      border: none;
+      background-color: white;
+      cursor: pointer;
+      font-size: 20px;
+      height: 30px;
+      width: 50px;
+    }
+    .nav-items a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    
+      font-family: 'Times New Roman',  serif;
+    }
+    .nav-items a:hover{
+      text-decoration: underline;
+    }
+    .login-btn{
+      background-color: rgb(219, 246, 43);
+      color: #0d0e11;
+      border: none;
+      padding: 6px 18px;
+      border-radius: 3px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .login-btn:hover{
+      background-color: #f1f1f1;
+    }
+    .cart{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+<img src="328-3288927_flipkart-deals-offers-discounts-and-coupons-online-flipkart - Copy.png" alt="flipcart logo">
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="search for products brands and more" >
+      <button>🔍</button>
+    </div>
+<div class="nav-items">
+  <button class="login-btn">Login</button>
+  <a href="#">Become a seller</a>
+  <a href="#">More</a>
+  <a href="#" class="cart">🛒 Cart</a>
+
+</div>
+  </nav>
+</body>
+</html>
